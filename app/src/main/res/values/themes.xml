@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Todi" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/todi_background_light</item>
+    </style>
+
+    <style name="TodiNotificationLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/notification_text_primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Theme.Todi.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/todi_background_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.Todi</item>
+    </style>
+
+</resources>

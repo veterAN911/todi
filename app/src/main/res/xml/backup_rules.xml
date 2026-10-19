@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<full-backup-content>
+    <exclude domain="database" path="todi.db" />
+    <exclude domain="database" path="todi.db-wal" />
+    <exclude domain="database" path="todi.db-shm" />
+    
+    <exclude domain="file" path="vosk-model" />
+    <exclude domain="file" path="vosk-model-incoming" />
+    
+    <exclude domain="file" path="vosk-model-incoming.zip.part" />
+    
+    <exclude domain="file" path="datastore/todi_auth.preferences_pb" />
+</full-backup-content>

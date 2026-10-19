@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todi</string>
+
+    <string name="nav_today">Сегодня</string>
+    <string name="nav_tomorrow">Завтра</string>
+    <string name="nav_global">Глобальные</string>
+    <string name="nav_calendar">Календарь</string>
+    <string name="nav_completed">Выполненные</string>
+    <string name="nav_settings">Настройки</string>
+    
+    <string name="nav_about">О приложении</string>
+    
+    <string name="nav_bottom_global">Без даты</string>
+    <string name="nav_bottom_completed">Архив</string>
+
+    <string name="add_task">Добавить дело</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="edit_task">Редактировать</string>
+    <string name="delete_task">Удалить</string>
+    <string name="complete_task">Выполнить</string>
+    <string name="uncomplete_task">Вернуть в работу</string>
+    <string name="move_to_tomorrow">Перенести на завтра</string>
+    <string name="move_to">Перенести…</string>
+    <string name="move_to_title">Перенести на</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="pick_date">Выбрать дату</string>
+    <string name="moved_to_tomorrow">Задача перенесена на завтра</string>
+    <string name="task_moved">Задача перенесена</string>
+    <string name="task_deleted">Задача удалена</string>
+    <string name="undo">Отменить</string>
+    <string name="ok">Готово</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="new_task">Новое дело</string>
+    <string name="task_title_hint">Название дела</string>
+    <string name="task_note_hint">Заметка</string>
+    <string name="task_date">Дата</string>
+    <string name="task_time">Время</string>
+    <string name="no_time">Без времени</string>
+    <string name="editor_with_date">С датой</string>
+    <string name="editor_without_date">Без даты</string>
+
+    <string name="carried_from">с %1$s</string>
+
+    <string name="completed_section">Выполнено · %1$d</string>
+    <string name="completed_today">Сегодня</string>
+    <string name="completed_yesterday">Вчера</string>
+    <string name="no_completed_tasks">Пока ничего не выполнено</string>
+    <string name="completed_hint">Выполненные дела собираются здесь — по дням, когда вы их отметили.</string>
+    <string name="cd_completed_task">Выполнено</string>
+    <string name="completed_nothing_that_day">В этот день ничего не выполнено</string>
+    <string name="cd_archive_as_calendar">Показать календарём</string>
+    <string name="cd_archive_as_list">Показать списком</string>
+    <string name="restore_day_hint">На какой день вернуть дело?</string>
+    <string name="restore_day_today">На сегодня</string>
+    <string name="restore_day_other">На другой день</string>
+
+    <string name="all_free">Всё свободно</string>
+    <string name="no_tasks_today">У вас пока нет дел на сегодня.</string>
+    <string name="no_tasks_date">Нет дел на этот день.</string>
+    <string name="no_global_tasks">Нет дел без даты.</string>
+    <string name="global_tasks_hint">Дела без даты не привязаны к дню — они всегда под рукой и не переносятся.</string>
+    <string name="all_done">Готово на сегодня</string>
+    <string name="all_done_any">Всё выполнено</string>
+    <string name="all_done_text">Все задачи выполнены.</string>
+
+    <string name="settings_theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="settings_language">Язык</string>
+    <string name="language_system">Как в системе</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="settings_navigation">Нижняя панель</string>
+    <string name="settings_navigation_hint">Отмеченные разделы — внизу экрана, а на планшете в боковой панели. Любой раздел всегда открывается из меню слева.</string>
+    <string name="settings_navigation_empty">Ничего не отмечено — нижней панели не будет. Разделы остались в меню слева.</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_notifications_desc">Показывать дела на сегодня в уведомлениях</string>
+    <string name="settings_lock_screen">Показывать на экране блокировки</string>
+    <string name="settings_lock_screen_desc">Содержимое уведомления видно на заблокированном экране</string>
+    
+    <string name="settings_lock_screen_scope">Что видно на экране блокировки</string>
+    <string name="lock_screen_scope_full">Весь список</string>
+    <string name="lock_screen_scope_title_only">Только заголовок со счётчиком</string>
+    <string name="settings_lock_screen_title_only_hint">Дела в уведомление не попадут вовсе: и в шторке карточка будет только со счётчиком</string>
+    <string name="settings_scope">Состав уведомления</string>
+    <string name="settings_scope_today_only">Только сегодня</string>
+    <string name="settings_scope_with_overdue">Сегодня + просроченные</string>
+    <string name="settings_scope_with_overdue_and_global">Сегодня + просроченные + без даты</string>
+    <string name="notifications_needs_permission">Разрешение на уведомления не выдано</string>
+    <string name="enable_notifications">Включить уведомления</string>
+    <string name="settings_carry_over">Переносить невыполненные</string>
+    <string name="settings_carry_over_desc">Просроченные дела автоматически переносятся на сегодня при запуске</string>
+    <string name="settings_completed">Выполненные дела</string>
+    <string name="settings_show_completed">Показывать в списке дня</string>
+    <string name="settings_show_completed_desc">Выполненные дела видны в конце дня под разделителем</string>
+    <string name="settings_retention">Хранить выполненные</string>
+    <string name="retention_forever">Бессрочно</string>
+    <string name="clear_completed">Очистить выполненные</string>
+    <string name="clear_completed_title">Очистить выполненные дела?</string>
+    <string name="clear_completed_text">Все выполненные дела будут удалены с телефона. Действие нельзя отменить.</string>
+    <string name="clear_completed_done">Выполненные дела удалены</string>
+    <string name="settings_global">Дела без даты</string>
+    <string name="settings_global_reminder">Напоминать в течение дня</string>
+    <string name="settings_global_reminder_desc">Отдельное уведомление о делах без даты: повторяется до часа тишины, пока дела не выполнены</string>
+    <string name="settings_global_reminder_start">Первое напоминание</string>
+    <string name="settings_global_reminder_interval">Повторять</string>
+    <string name="settings_global_reminder_quiet">Не беспокоить после</string>
+    <string name="settings_calendar">Календарь телефона</string>
+    <string name="settings_calendar_desc">Все дела автоматически попадают в календарь на телефоне</string>
+    <string name="calendar_permission_needed">Нет доступа к календарю — включите разрешение</string>
+    <string name="calendar_no_calendars">На устройстве нет календарей — заведите календарь в настройках телефона</string>
+
+    <string name="onboarding_title">Не забывайте о важных делах</string>
+    <string name="onboarding_text">Todi показывает ваши дела на сегодня прямо в уведомлениях — на экране блокировки и в шторке.</string>
+    <string name="allow_notifications">Разрешить уведомления</string>
+    <string name="later">Позже</string>
+
+    <string name="notification_channel_name">Дела на сегодня</string>
+    <string name="notification_channel_desc">Показывает актуальные задачи на сегодня</string>
+    <string name="notification_title">%1$s на сегодня</string>
+    <string name="notification_more">+%1$d ещё</string>
+    <string name="notification_action_add">Добавить</string>
+    <string name="notification_action_open">Открыть приложение</string>
+    <string name="notification_overdue_header">Просроченные</string>
+    <string name="notification_global_header">Без даты</string>
+    <string name="notification_title_global">%1$s без даты</string>
+    <string name="notification_reminder_channel_name">Напоминание: дела без даты</string>
+    <string name="notification_reminder_channel_desc">Напоминает о делах без даты в течение дня</string>
+
+    <string name="settings_notification_colors">Цвета в уведомлении</string>
+    <string name="notification_color_today">Сегодня</string>
+    <string name="notification_color_system">Системный</string>
+    <string name="notification_color_custom">Свой цвет</string>
+    <string name="notification_color_hue">Оттенок</string>
+    <string name="notification_color_saturation">Насыщенность</string>
+    <string name="notification_color_brightness">Яркость</string>
+    <string name="notification_color_low_contrast">Такой цвет плохо видно на светлом или тёмном фоне уведомления</string>
+    
+    <string name="settings_notification_preview">Что попадёт в уведомление</string>
+    <string name="settings_notification_preview_hint">Так уведомления будут выглядеть с выбранными цветами и составом.</string>
+    <string name="notification_preview_shade">В шторке</string>
+    <string name="notification_preview_lock_screen">На экране блокировки</string>
+    <string name="notification_preview_reminder">Дела без даты — напоминанием</string>
+    <string name="notification_preview_empty">Активных дел нет</string>
+    <string name="notification_preview_hidden">На экране блокировки уведомления не будет</string>
+    <string name="notification_preview_off">Напоминание выключено</string>
+
+    <string name="cd_open_menu">Открыть меню</string>
+    <string name="cd_more_options">Другие действия</string>
+    <string name="cd_add_task">Добавить дело</string>
+    <string name="voice_pull_up">Потяни вверх</string>
+    <string name="voice_permission_rationale">Чтобы записать дела голосом, нужен доступ к микрофону</string>
+    <string name="voice_allow_microphone">Разрешить</string>
+    <string name="voice_enter_manually">Ввести вручную</string>
+    <string name="voice_error_permission">Доступ к микрофону запрещён — включите его в настройках приложения</string>
+    <string name="voice_error_no_speech">Ничего не расслышал</string>
+    <string name="voice_error_recognizer">Не удалось распознать речь</string>
+    
+    <string name="voice_error_model_missing">Локальное распознавание не работает — модель русского языка не скачана</string>
+    <string name="voice_model_ready_pull">Модель скачана — держите «+» и потяните вверх</string>
+    
+    <string name="voice_engine_offline">Офлайн, без сети</string>
+    <string name="voice_no_drafts">Дел не расслышано</string>
+    
+    <string name="voice_save_all">Сохранить всё</string>
+    <string name="voice_edit">Редактировать</string>
+    <string name="voice_edit_hint">Что было сказано</string>
+    <string name="voice_block_save">Добавить эти дела</string>
+    <string name="voice_block_drop">Убрать этот блок</string>
+    <plurals name="voice_saved">
+        <item quantity="one">Добавлено %1$d дело</item>
+        <item quantity="few">Добавлено %1$d дела</item>
+        <item quantity="many">Добавлено %1$d дел</item>
+        <item quantity="other">Добавлено %1$d дел</item>
+    </plurals>
+    
+    <string name="settings_voice">Голосовой ввод</string>
+    <string name="settings_voice_input">Диктовать дела голосом</string>
+    <string name="settings_voice_input_desc">Удержание кнопки «+» и протяжка вверх — вместо набора текста</string>
+    
+    <string name="settings_voice_russian_only">Распознавание и разбор фраз — только по-русски. На другом языке приложения диктовка выключена</string>
+    <string name="settings_voice_model">Модель для офлайн-распознавания</string>
+    <string name="settings_voice_model_absent">Не скачана — диктовать нечем</string>
+    <string name="settings_voice_model_ready">Скачана, занимает %1$s МБ</string>
+    <string name="settings_voice_model_downloading">Скачивание: %1$d%%</string>
+    <string name="settings_voice_model_download">Скачать (~46 МБ)</string>
+    <string name="settings_voice_model_resume">Продолжить (уже %1$s МБ)</string>
+    <string name="settings_voice_model_remove">Удалить модель</string>
+    <string name="settings_voice_model_failed_network">Соединение оборвалось. Можно попробовать снова — скачивание продолжится с этого места, а не начнётся заново</string>
+    <string name="settings_voice_model_failed_storage">Не хватило места на телефоне: нужно около 250 МБ свободных</string>
+    <string name="settings_voice_model_failed_archive">Файл скачался целиком, но модель в нём не читается — попробуйте скачать заново</string>
+    <string name="cd_previous_month">Предыдущий месяц</string>
+    <string name="cd_next_month">Следующий месяц</string>
+    <string name="cd_search">Поиск</string>
+    <string name="cd_clear_query">Очистить запрос</string>
+    <string name="cd_back">Назад</string>
+
+    <string name="search">Поиск</string>
+    <string name="search_hint">Название или заметка</string>
+    <string name="search_prompt_title">Поиск по делам</string>
+    <string name="search_prompt_hint">Слово из названия или заметки — ищется по всем делам, включая выполненные и дела без даты</string>
+    <string name="search_nothing_found">Ничего не найдено</string>
+    <string name="search_nothing_found_hint">Попробуйте другое слово</string>
+    
+    <string name="search_other_dates">Другие даты</string>
+
+    <plurals name="retention_months">
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="many">%1$d месяцев</item>
+        <item quantity="other">%1$d месяца</item>
+    </plurals>
+    <plurals name="reminder_minutes">
+        <item quantity="one">%1$d минуту</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d минуты</item>
+    </plurals>
+    <plurals name="reminder_hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часа</item>
+    </plurals>
+
+    <string name="settings_backup">Резервная копия</string>
+    <string name="settings_backup_enable">Копировать список на сервер</string>
+    <string name="settings_backup_desc">Не чаще раза в 12 часов и по кнопке, и только когда список изменился. На сервере хранятся 10 последних копий</string>
+    <string name="backup_account_sign_in">Войти</string>
+    <string name="settings_backup_signed_in">Вход выполнен: %1$s</string>
+    <string name="settings_backup_sign_out">Выйти</string>
+    <string name="settings_backup_now">Создать копию сейчас</string>
+    <string name="settings_backup_refresh">Обновить список</string>
+    <string name="settings_backup_copies">Копии на сервере</string>
+    <string name="settings_backup_copies_empty">Копий пока нет</string>
+    <string name="settings_backup_not_signed_in">Войдите, чтобы копировать список на сервер — вход в меню слева, в самом верху у названия</string>
+    <string name="settings_backup_size_under_kb">&lt;1 КБ</string>
+    <string name="settings_backup_size_kb">%1$d КБ</string>
+    <string name="settings_backup_size_mb">%1$s МБ</string>
+    <plurals name="settings_backup_tasks">
+        <item quantity="one">%1$d дело</item>
+        <item quantity="few">%1$d дела</item>
+        <item quantity="many">%1$d дел</item>
+        <item quantity="other">%1$d дел</item>
+    </plurals>
+    <string name="settings_backup_uploaded">Копия создана</string>
+    <string name="settings_backup_up_to_date">Изменений нет — на сервере уже эта версия списка</string>
+    <string name="settings_backup_restored">Список восстановлен: %1$s</string>
+    
+    <string name="backup_login_title">Вход по почте</string>
+    <string name="backup_login_email">Почта</string>
+    <string name="backup_login_send">Получить код</string>
+    <string name="backup_login_code_title">Код из письма</string>
+    <string name="backup_login_code_sent">Код отправлен на %1$s. Письмо может прийти не сразу</string>
+    <string name="backup_login_code">Код</string>
+    <string name="backup_login_confirm">Войти</string>
+    <string name="backup_login_other_email">Другая почта</string>
+    
+    <string name="backup_restore_title">Восстановить из копии?</string>
+    <string name="backup_restore_text">Копия от %1$s заменит весь текущий список. Перед заменой приложение снимает страховочную копию текущего состояния</string>
+    <string name="backup_restore_confirm">Заменить</string>
+    
+    <string name="backup_error_not_signed_in">Нужно войти заново</string>
+    <string name="backup_error_network">Нет связи с сервером</string>
+    <string name="backup_error_rate_limited">Сервер просит подождать и повторить позже</string>
+    <string name="backup_error_not_found">Копии на сервере нет</string>
+    <string name="backup_error_unreadable">Копия не читается</string>
+    <string name="backup_error_too_new">Копия сделана более новой версией приложения</string>
+    <string name="backup_error_empty_local">Пустой список не затирает непустую копию</string>
+    <string name="backup_error_failed">Сервер не смог выполнить запрос</string>
+    <string name="backup_error_code">код %1$d</string>
+
+    <string name="about_version">Версия %1$s (%2$d)</string>
+    <string name="about_tagline">Список дел по датам — с напоминанием на экране блокировки.</string>
+    <string name="about_section_releases">Версии и релизы</string>
+    <string name="about_releases_text">Версия 1.0 — первый выпуск.\n\nЧто появилось по ходу работы:\n• Дела по датам: день, «Завтра» и календарь на месяц.\n• Дела без даты — отдельный список, который не переносится на другой день.\n• Автоперенос незакрытых дел прошлого дня на сегодня, с пометкой «с 29 авг.»\n• Выполненные: архив по дню закрытия и возврат дела в работу на выбранный день.\n• Постоянное уведомление со списком активных дел — в шторке и на экране блокировки.\n• Поиск по всем делам сразу, включая выполненные и дела без даты.\n• Экспорт дел с датой в календарь телефона.\n• Голосовой ввод: удержание кнопки «+» и распознавание речи прямо на телефоне.\n• Резервная копия на своём сервере: не чаще раза в 12 часов и по кнопке, 10 последних копий.</string>
+    <string name="about_section_guide">Краткая инструкция</string>
+    <string name="about_guide_text">Сегодня, Завтра, Календарь — это дни. Дело живёт на своём дне; незакрытое дело прошлого дня утром само переезжает на сегодня и помечается «с 29 авг.».\n\nБез даты — дела, у которых дня нет. Они никуда не переносятся и не краснеют.\n\nВыполненные — архив, сгруппированный по дню, когда дело закрыли. Свайп вправо спрашивает, на какой день вернуть дело; значок вверху переключает список и месяц.\n\nПоиск — по названию и по заметке, сразу по всем делам.\n\nКнопка «+» — новое дело. Удержание «+» и протяжка вверх — надиктовать список дел голосом.\n\nНастройки — уведомления, цвета разделов, нижняя панель, голосовой ввод, срок хранения архива, календарь телефона и резервная копия на своём сервере.</string>
+    <string name="about_section_privacy">Политика конфиденциальности</string>
+    <string name="about_privacy_text">Дела хранятся на телефоне. Приложение не отправляет их никуда, кроме своего сервера, и то лишь когда резервная копия включена: копия уходит на собственный сервер приложения, адрес которого задан при сборке. Ни аналитики, ни рекламы, ни чужих облаков в приложении нет.\n\nРезервная копия. Список целиком уходит на свой сервер — по переключателю в настройках, не чаще раза в 12 часов и по кнопке. Сервер хранит 10 последних копий и не разбирает их содержимое. Вход — почта и код из письма, а не пароль; полученный токен остаётся на телефоне и исключён из системного облачного бэкапа.\n\nКалендарь. Дела с датой выгружаются в календарь телефона — по переключателю.\n\nРазрешения. Уведомления нужны, чтобы список висел на экране блокировки. Микрофон — только для диктовки; распознавание идёт на телефоне, без сети.\n\nСодержимое дел не попадает ни в логи приложения, ни куда-либо ещё.</string>
+    <string name="about_section_terms">Правила использования</string>
+    <string name="about_terms_text">Приложение бесплатное и предназначено для личных дел.\n\nНе храните в нём чужие персональные данные без согласия человека.\n\nЭкспорт в календарь телефона можно выключить в любой момент.\n\nПриложение развивается, поэтому возможности и вид экранов могут меняться.</string>
+    <string name="about_section_agreement">Пользовательское соглашение</string>
+    <string name="about_agreement_text">Приложение поставляется «как есть», без гарантий.\n\nАвтор не отвечает за утрату данных.\n\nРаспознавание речи может ошибаться: проверяйте разобранную фразу перед сохранением.\n\nПродолжая пользоваться приложением, вы принимаете эти условия. Если они не подходят, приложение можно просто удалить: все данные хранятся на телефоне и уходят вместе с ним — кроме копий на сервере, если их выгрузка была включена.</string>
+</resources>

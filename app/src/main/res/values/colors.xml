@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="todi_background_dark">#0F1115</color>
+    <color name="todi_background_light">#F6F6F4</color>
+    <color name="todi_accent">#8E9BFF</color>
+
+    <color name="notification_text_primary">#212121</color>
+    <color name="notification_text_secondary">#616161</color>
+</resources>

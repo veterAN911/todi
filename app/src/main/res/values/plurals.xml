@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="task_count">
+        <item quantity="one">%1$d дело</item>
+        <item quantity="few">%1$d дела</item>
+        <item quantity="many">%1$d дел</item>
+        <item quantity="other">%1$d дел</item>
+    </plurals>
+</resources>

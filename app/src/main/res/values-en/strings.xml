@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todi</string>
+
+    <string name="nav_today">Today</string>
+    <string name="nav_tomorrow">Tomorrow</string>
+    <string name="nav_global">Global</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_completed">Completed</string>
+    <string name="nav_settings">Settings</string>
+    
+    <string name="nav_about">About</string>
+    
+    <string name="nav_bottom_global">Global</string>
+    <string name="nav_bottom_completed">Archive</string>
+
+    <string name="add_task">Add task</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="edit_task">Edit</string>
+    <string name="delete_task">Delete</string>
+    <string name="complete_task">Complete</string>
+    <string name="uncomplete_task">Mark as not done</string>
+    <string name="move_to_tomorrow">Move to tomorrow</string>
+    <string name="move_to">Move to…</string>
+    <string name="move_to_title">Move to</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="moved_to_tomorrow">Task moved to tomorrow</string>
+    <string name="task_moved">Task moved</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="undo">Undo</string>
+    <string name="ok">Done</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="new_task">New task</string>
+    <string name="task_title_hint">Task title</string>
+    <string name="task_note_hint">Note</string>
+    <string name="task_date">Date</string>
+    <string name="task_time">Time</string>
+    <string name="no_time">No time</string>
+    <string name="editor_with_date">With date</string>
+    <string name="editor_without_date">Without date</string>
+
+    <string name="carried_from">from %1$s</string>
+
+    <string name="completed_section">Completed · %1$d</string>
+    <string name="completed_today">Today</string>
+    <string name="completed_yesterday">Yesterday</string>
+    <string name="no_completed_tasks">Nothing completed yet</string>
+    <string name="completed_hint">Completed tasks collect here, grouped by the day you ticked them off.</string>
+    <string name="cd_completed_task">Completed</string>
+    <string name="completed_nothing_that_day">Nothing was completed that day</string>
+    <string name="cd_archive_as_calendar">Show as calendar</string>
+    <string name="cd_archive_as_list">Show as list</string>
+    <string name="restore_day_hint">Which day should it go back to?</string>
+    <string name="restore_day_today">Today</string>
+    <string name="restore_day_other">Another day</string>
+
+    <string name="all_free">All clear</string>
+    <string name="no_tasks_today">You have no tasks for today yet.</string>
+    <string name="no_tasks_date">No tasks for this day.</string>
+    <string name="no_global_tasks">No date-less tasks.</string>
+    <string name="global_tasks_hint">Date-less tasks are not tied to a day — they are always at hand and never carried over.</string>
+    <string name="all_done">Done for today</string>
+    <string name="all_done_any">All done</string>
+    <string name="all_done_text">All tasks completed.</string>
+
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="language_system">System default</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="settings_navigation">Bottom bar</string>
+    <string name="settings_navigation_hint">Ticked sections sit at the bottom of the screen, or in the side rail on a tablet. Every section is always reachable from the menu on the left.</string>
+    <string name="settings_navigation_empty">Nothing ticked — there will be no bottom bar. The sections stay in the menu on the left.</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_desc">Show today\'s tasks in notifications</string>
+    <string name="settings_lock_screen">Show on lock screen</string>
+    <string name="settings_lock_screen_desc">Notification content is visible on the lock screen</string>
+    
+    <string name="settings_lock_screen_scope">What the lock screen shows</string>
+    <string name="lock_screen_scope_full">The whole list</string>
+    <string name="lock_screen_scope_title_only">Only the title and count</string>
+    <string name="settings_lock_screen_title_only_hint">The tasks are left out of the notification entirely: the shade card shows only the count too</string>
+    <string name="settings_scope">Notification scope</string>
+    <string name="settings_scope_today_only">Today only</string>
+    <string name="settings_scope_with_overdue">Today + overdue</string>
+    <string name="settings_scope_with_overdue_and_global">Today + overdue + date-less</string>
+    <string name="notifications_needs_permission">Notification permission not granted</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="settings_carry_over">Carry over incomplete</string>
+    <string name="settings_carry_over_desc">Overdue tasks are automatically moved to today on launch</string>
+    <string name="settings_completed">Completed tasks</string>
+    <string name="settings_show_completed">Show in the day list</string>
+    <string name="settings_show_completed_desc">Completed tasks appear at the end of the day under a divider</string>
+    <string name="settings_retention">Keep completed tasks</string>
+    <string name="retention_forever">Forever</string>
+    <string name="clear_completed">Clear completed</string>
+    <string name="clear_completed_title">Clear completed tasks?</string>
+    <string name="clear_completed_text">Every completed task will be deleted from this phone. This cannot be undone.</string>
+    <string name="clear_completed_done">Completed tasks deleted</string>
+    <string name="settings_global">Date-less tasks</string>
+    <string name="settings_global_reminder">Remind during the day</string>
+    <string name="settings_global_reminder_desc">A separate notification about date-less tasks: it repeats until the quiet hour while tasks are left</string>
+    <string name="settings_global_reminder_start">First reminder</string>
+    <string name="settings_global_reminder_interval">Repeat</string>
+    <string name="settings_global_reminder_quiet">Quiet after</string>
+    <string name="settings_calendar">Phone calendar</string>
+    <string name="settings_calendar_desc">All tasks are automatically added to the calendar on this phone</string>
+    <string name="calendar_permission_needed">Calendar access not granted — enable the permission</string>
+    <string name="calendar_no_calendars">No calendars on this device — create one in phone settings</string>
+
+    <string name="onboarding_title">Never miss what matters</string>
+    <string name="onboarding_text">Todi keeps your tasks for today right in your notifications — on the lock screen and in the shade.</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="later">Later</string>
+
+    <string name="notification_channel_name">Today\'s tasks</string>
+    <string name="notification_channel_desc">Shows your active tasks for today</string>
+    <string name="notification_title">%1$s for today</string>
+    <string name="notification_more">+%1$d more</string>
+    <string name="notification_action_add">Add</string>
+    <string name="notification_action_open">Open app</string>
+    <string name="notification_overdue_header">Overdue</string>
+    <string name="notification_global_header">Without date</string>
+    <string name="notification_title_global">%1$s without a date</string>
+    <string name="notification_reminder_channel_name">Reminder: date-less tasks</string>
+    <string name="notification_reminder_channel_desc">Reminds you about date-less tasks during the day</string>
+
+    <string name="settings_notification_colors">Notification colours</string>
+    <string name="notification_color_today">Today</string>
+    <string name="notification_color_system">System</string>
+    <string name="notification_color_custom">Custom colour</string>
+    <string name="notification_color_hue">Hue</string>
+    <string name="notification_color_saturation">Saturation</string>
+    <string name="notification_color_brightness">Brightness</string>
+    <string name="notification_color_low_contrast">This colour is hard to read on the light or dark notification background</string>
+    
+    <string name="settings_notification_preview">What lands in the notification</string>
+    <string name="settings_notification_preview_hint">This is how the notifications will look with the colours and composition you chose.</string>
+    <string name="notification_preview_shade">In the shade</string>
+    <string name="notification_preview_lock_screen">On the lock screen</string>
+    <string name="notification_preview_reminder">Date-less tasks — as a reminder</string>
+    <string name="notification_preview_empty">No active tasks</string>
+    <string name="notification_preview_hidden">No notification on the lock screen</string>
+    <string name="notification_preview_off">The reminder is off</string>
+
+    <string name="cd_open_menu">Open menu</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_add_task">Add task</string>
+    <string name="voice_pull_up">Pull up</string>
+    <string name="voice_permission_rationale">Dictating tasks needs access to the microphone</string>
+    <string name="voice_allow_microphone">Allow</string>
+    <string name="voice_enter_manually">Type it in</string>
+    <string name="voice_error_permission">Microphone access is denied — enable it in the app settings</string>
+    <string name="voice_error_no_speech">Didn\'t catch that</string>
+    <string name="voice_error_recognizer">Could not make out the speech</string>
+    
+    <string name="voice_error_model_missing">Offline recognition is not available — the Russian model is not downloaded</string>
+    <string name="voice_model_ready_pull">The model is downloaded — hold “+” and pull up</string>
+    
+    <string name="voice_engine_offline">Offline, no network</string>
+    <string name="voice_no_drafts">No tasks heard</string>
+    
+    <string name="voice_save_all">Save all</string>
+    <string name="voice_edit">Edit</string>
+    <string name="voice_edit_hint">What was said</string>
+    <string name="voice_block_save">Add these tasks</string>
+    <string name="voice_block_drop">Drop this block</string>
+    <plurals name="voice_saved">
+        <item quantity="one">%1$d task added</item>
+        <item quantity="other">%1$d tasks added</item>
+    </plurals>
+    
+    <string name="settings_voice">Voice input</string>
+    <string name="settings_voice_input">Dictate tasks</string>
+    <string name="settings_voice_input_desc">Hold the “+” button and pull up instead of typing</string>
+    
+    <string name="settings_voice_russian_only">Recognition and phrase parsing are Russian only. With any other app language dictation is off</string>
+    <string name="settings_voice_model">Offline recognition model</string>
+    <string name="settings_voice_model_absent">Not downloaded — there is nothing to dictate with</string>
+    <string name="settings_voice_model_ready">Downloaded, takes %1$s MB</string>
+    <string name="settings_voice_model_downloading">Downloading: %1$d%%</string>
+    <string name="settings_voice_model_download">Download (~46 MB)</string>
+    <string name="settings_voice_model_resume">Continue (already %1$s MB)</string>
+    <string name="settings_voice_model_remove">Delete the model</string>
+    <string name="settings_voice_model_failed_network">The connection dropped. Trying again continues from here rather than starting over</string>
+    <string name="settings_voice_model_failed_storage">Not enough room on the phone: about 250 MB free is needed</string>
+    <string name="settings_voice_model_failed_archive">The whole file arrived, but the model inside it cannot be read — try downloading it again</string>
+    <string name="cd_previous_month">Previous month</string>
+    <string name="cd_next_month">Next month</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_clear_query">Clear the query</string>
+    <string name="cd_back">Back</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Title or note</string>
+    <string name="search_prompt_title">Search your tasks</string>
+    <string name="search_prompt_hint">A word from a title or a note — every task is searched, including completed ones and those without a date</string>
+    <string name="search_nothing_found">Nothing found</string>
+    <string name="search_nothing_found_hint">Try another word</string>
+    
+    <string name="search_other_dates">Other dates</string>
+
+    <plurals name="retention_months">
+        <item quantity="one">%1$d month</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <plurals name="reminder_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="reminder_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+
+    <string name="settings_backup">Backup</string>
+    <string name="settings_backup_enable">Copy the list to a server</string>
+    <string name="settings_backup_desc">No more than once every 12 hours, and on demand — and only when the list has changed. The server keeps the last 10 copies</string>
+    <string name="backup_account_sign_in">Sign in</string>
+    <string name="settings_backup_signed_in">Signed in: %1$s</string>
+    <string name="settings_backup_sign_out">Sign out</string>
+    <string name="settings_backup_now">Make a copy now</string>
+    <string name="settings_backup_refresh">Refresh the list</string>
+    <string name="settings_backup_copies">Copies on the server</string>
+    <string name="settings_backup_copies_empty">No copies yet</string>
+    <string name="settings_backup_not_signed_in">Sign in to copy the list to the server — the entry is at the top of the menu on the left, by the title</string>
+    <string name="settings_backup_size_under_kb">&lt;1 KB</string>
+    <string name="settings_backup_size_kb">%1$d KB</string>
+    <string name="settings_backup_size_mb">%1$s MB</string>
+    <plurals name="settings_backup_tasks">
+        <item quantity="one">%1$d task</item>
+        <item quantity="other">%1$d tasks</item>
+    </plurals>
+    <string name="settings_backup_uploaded">Copy made</string>
+    <string name="settings_backup_up_to_date">Nothing changed — the server already has this version of the list</string>
+    <string name="settings_backup_restored">List restored: %1$s</string>
+    
+    <string name="backup_login_title">Sign in by email</string>
+    <string name="backup_login_email">Email</string>
+    <string name="backup_login_send">Send the code</string>
+    <string name="backup_login_code_title">The code from the letter</string>
+    <string name="backup_login_code_sent">A code was sent to %1$s. The letter may take a minute</string>
+    <string name="backup_login_code">Code</string>
+    <string name="backup_login_confirm">Sign in</string>
+    <string name="backup_login_other_email">Another email</string>
+    
+    <string name="backup_restore_title">Restore from a copy?</string>
+    <string name="backup_restore_text">The copy from %1$s will replace the whole current list. Before replacing, the app takes a safety copy of what is here now</string>
+    <string name="backup_restore_confirm">Replace</string>
+    
+    <string name="backup_error_not_signed_in">You need to sign in again</string>
+    <string name="backup_error_network">No connection to the server</string>
+    <string name="backup_error_rate_limited">The server asks you to wait and try later</string>
+    <string name="backup_error_not_found">There is no such copy on the server</string>
+    <string name="backup_error_unreadable">The copy cannot be read</string>
+    <string name="backup_error_too_new">The copy was made by a newer version of the app</string>
+    <string name="backup_error_empty_local">An empty list does not overwrite a copy that has tasks</string>
+    <string name="backup_error_failed">The server could not carry the request out</string>
+    <string name="backup_error_code">code %1$d</string>
+
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_tagline">A to-do list by date, with the day’s tasks on your lock screen.</string>
+    <string name="about_section_releases">Versions and releases</string>
+    <string name="about_releases_text">Version 1.0 — the first release.\n\nWhat appeared along the way:\n• Tasks by date: a day, “Tomorrow” and a month calendar.\n• Date-less tasks in a list of their own, never carried to another day.\n• Unfinished tasks of the previous day move to today on their own, marked “since 29 Aug”.\n• Completed: an archive by the day a task was ticked off, and a way to put it back on the day you pick.\n• A standing notification with the day’s tasks — in the shade and on the lock screen.\n• Search across every task at once, including completed and date-less ones.\n• Tasks with a date are exported to the phone’s calendar.\n• Voice input: hold the “+” button and dictate straight onto the phone.\n• Backup to your own server: no more than once every 12 hours and on demand, the last 10 copies.</string>
+    <string name="about_section_guide">Quick guide</string>
+    <string name="about_guide_text">Today, Tomorrow and Calendar are days. A task lives on its own day; an unfinished task from the previous day moves to today in the morning and is marked “since 29 Aug”.\n\nWithout a date — tasks that have no day. They are never carried anywhere and never turn red.\n\nCompleted — an archive grouped by the day a task was ticked off. Swiping right asks which day to put the task back on; the icon at the top switches between the list and the month.\n\nSearch — by title and by note, across every task at once.\n\nThe “+” button adds a task. Holding “+” and pulling up dictates a list of tasks.\n\nSettings — notifications, section colours, the bottom bar, voice input, how long the archive is kept, the phone’s calendar, and backup to your own server.</string>
+    <string name="about_section_privacy">Privacy policy</string>
+    <string name="about_privacy_text">Tasks are stored on the phone. The app sends them nowhere but its own server, and only when backup is on: a copy goes to the dedicated server, whose address is set at build time. There is no analytics, no ads and no third-party cloud in the app.\n\nBackup. The whole list goes to that server — behind a switch in the settings, no more than once every 12 hours and on demand. The server keeps the last 10 copies and does not read what is in them. Signing in is an email and a code from a letter, not a password; the token it returns stays on the phone and is excluded from Android’s cloud backup.\n\nCalendar. Tasks with a date are exported to the phone’s calendar — behind a switch.\n\nPermissions. Notifications are what keeps the list on the lock screen. The microphone is only for dictation; recognition runs on the phone, without the network.\n\nTask contents never reach the app’s logs or anywhere else.</string>
+    <string name="about_section_terms">Rules of use</string>
+    <string name="about_terms_text">The app is free and meant for your own tasks.\n\nDo not keep other people’s personal data in it without their consent.\n\nThe calendar export can be turned off at any time.\n\nThe app is being developed, so features and screens may change.</string>
+    <string name="about_section_agreement">User agreement</string>
+    <string name="about_agreement_text">The app is provided “as is”, without warranties.\n\nThe author is not liable for lost data.\n\nSpeech recognition can be wrong: check the parsed phrase before saving it.\n\nBy continuing to use the app you accept these terms. If they do not suit you, just delete the app: all data is stored on the phone and goes away with it — apart from the copies on the server, if uploading them was switched on.</string>
+</resources>
