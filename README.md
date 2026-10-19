@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/veterAN911/todi/actions/workflows/ci.yml"><img src="https://github.com/veterAN911/todi/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT"></a>
   <img src="https://img.shields.io/badge/platform-Android%2026%2B-3DDC84" alt="Android 26+">
   <img src="https://img.shields.io/badge/Kotlin-2.2-7F52FF" alt="Kotlin 2.2">
