@@ -21,6 +21,12 @@
   <a href="README.en.md">English</a>
 </p>
 
+<p align="center">
+  <a href="https://groups.google.com/g/-todi">Группа тестировщиков</a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.todi.appp">Google Play</a> ·
+  <a href="https://github.com/veterAN911/todi/releases/latest">APK</a>
+</p>
+
 ## О приложении
 
 Todi — локальный планировщик для Android. Дела живут на своих датах, а главная
@@ -31,6 +37,24 @@ Todi — локальный планировщик для Android. Дела жи
 Приложение не требует аккаунта, не содержит рекламы и аналитики, а содержимое
 дел не покидает телефон. Исключение — необязательная резервная копия на сервер,
 который выбирает сам владелец сборки.
+
+## Скачать
+
+**Google Play, закрытое тестирование.** Приложение доступно в закрытом
+тестировании, поэтому сначала нужно попасть в список тестировщиков:
+
+1. Вступите в группу: [groups.google.com/g/-todi](https://groups.google.com/g/-todi)
+   (вступить может каждый) или по адресу `-todi@googlegroups.com`.
+2. После вступления откройте страницу приложения в Google Play:
+   [play.google.com/store/apps/details?id=com.todi.appp](https://play.google.com/store/apps/details?id=com.todi.appp).
+
+Ссылка в Google Play работает только для участников группы: без вступления
+магазин покажет, что приложение недоступно.
+
+**APK напрямую.** Подписанный APK приложен к
+[Releases](https://github.com/veterAN911/todi/releases/latest). Скачайте файл
+`todi-1.0.1.apk` и установите его на телефон (Android 8.0 и новее). При
+установке из файла потребуется разрешить установку из этого источника.
 
 ## Возможности
 

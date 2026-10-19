@@ -21,6 +21,12 @@
   <a href="README.md">Русский</a>
 </p>
 
+<p align="center">
+  <a href="https://groups.google.com/g/-todi">Testing group</a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.todi.appp">Google Play</a> ·
+  <a href="https://github.com/veterAN911/todi/releases/latest">APK</a>
+</p>
+
 ## About
 
 Todi is a local-first Android task manager. Tasks live on their dates, and the
@@ -30,6 +36,24 @@ lets you see the plan without opening the app.
 
 No account, no ads, no analytics. Task content never leaves the phone, except
 for an optional backup to a server chosen by the person who builds the app.
+
+## Download
+
+**Google Play, closed testing.** The app is in closed testing, so you need to
+join the tester list first:
+
+1. Join the group: [groups.google.com/g/-todi](https://groups.google.com/g/-todi)
+   (anyone can join) or use `-todi@googlegroups.com`.
+2. Once you have joined, open the app page in Google Play:
+   [play.google.com/store/apps/details?id=com.todi.appp](https://play.google.com/store/apps/details?id=com.todi.appp).
+
+The Play link works only for group members. Without joining, the store reports
+that the app is unavailable.
+
+**APK directly.** A signed APK is attached to
+[Releases](https://github.com/veterAN911/todi/releases/latest). Download
+`todi-1.0.1.apk` and install it on your phone (Android 8.0 or newer). Installing
+from a file requires allowing installs from that source.
 
 ## Features
 
