@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/icon.png" width="96" height="96" alt="Todi">
+  <img src="docs/screenshots/todi-logo.png" width="96" height="96" alt="Todi">
 </p>
 
 <h1 align="center">Todi</h1>
